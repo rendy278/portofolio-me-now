@@ -21,7 +21,7 @@ const Skills = [
   { name: "Tailwind", logo: Tailwind, level: "Intermediate" },
   { name: "React", logo: Riek, level: "Beginner" },
   { name: "Git", logo: Git, level: "Intermediate" },
-  { name: "Sass Css", logo: Sass, level: "Beginner" },
+  { name: "Sass Css", logo: Sass, level: "Intermediate" },
   { name: "Bootstrap", logo: Bootstrap, level: "Intermediate" },
   { name: "Canva", logo: Canva, level: "Expert" },
 ];
