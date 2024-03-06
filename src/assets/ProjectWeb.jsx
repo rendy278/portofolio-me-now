@@ -1,4 +1,4 @@
-import Freya from "../project images/freya.png";
+import Tzuyu from "../project images/tzuyu.png";
 import Medical from "../project images/hospital.png";
 import Landingpage from "../project images/landingpage.png";
 import Ecourse from "../project images/ecourse.png";
@@ -19,22 +19,57 @@ import Crudjs from "../project images/crudjs.png";
 import Courseren from "../project images/courseren.png";
 import AmazonClone from "../project images/amazonclone.png";
 import CoffeShop from "../project images/coffeshop.png";
-import { FaReact, FaHtml5, FaCss3, FaSass, FaPhp } from "react-icons/fa";
+import WeddingWeb from "../project images/wedding.png";
+import VueMovie from "../project images/vuexfilm.png";
+import Blogs from "../project images/Blogs.png";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaSass,
+  FaPhp,
+  FaVuejs,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiCanva, SiTailwindcss, SiJquery } from "react-icons/si";
+import { SiCanva, SiTailwindcss, SiJquery, SiNextdotjs } from "react-icons/si";
 const ProjectWeb = [
   {
-    title: "Desain Canva Web",
-    name: "Desain poster web",
-    image: Freya,
+    title: "Blogs",
+    name: "Blogs website",
+    image: Blogs,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600">
+        <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <SiTailwindcss />
+        <FaReact /> <SiNextdotjs />
+      </p>
+    ),
+    link: "https://blogs-web-indol.vercel.app/",
+    repository: "https://github.com/rendy278/blogs-web.git",
+  },
+  {
+    title: "Portofolio",
+    name: "Portofolio Idol",
+    image: Tzuyu,
     build: (
       <p className="flex gap-2 text-lg text-gray-600">
         <SiCanva />
       </p>
     ),
-    link: "https://wartegjawir.my.canva.site/freya",
+    link: "https://wartegjawir.my.canva.site/portofolio-tzuyu-twice",
     repository:
-      "https://www.canva.com/design/DAF8U-EQDRs/jtQkDxNJchkqIwaRy3lVTw/view",
+      "https://www.canva.com/design/DAF98Y3L_QI/KYvdCd3GpASUJJeCZ3OUsQ/edit?utm_content=DAF98Y3L_QI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
+  {
+    title: "Serch Movie Web",
+    name: "Rend Movies",
+    image: VueMovie,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600">
+        <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <FaSass /> <FaVuejs />
+      </p>
+    ),
+    link: "https://vuex-movies.vercel.app/",
+    repository: "https://github.com/rendy278/vuex-movies.git",
   },
   {
     title: "Hospital",
@@ -106,11 +141,11 @@ const ProjectWeb = [
       </p>
     ),
     link: "https://roundgym-git-main-rendev.vercel.app/",
-    repository: "https://github.com/rendy278/Medical-SCSS.git",
+    repository: "https://github.com/rendy278/roundgym.git",
   },
   {
-    title: "Serch Film Web",
-    name: "Web Pencarian film",
+    title: "Serch Movie Web",
+    name: "Web pencarian film",
     image: WebPencarianFilm,
     build: (
       <p className="flex gap-2 text-lg text-gray-600">
@@ -119,6 +154,18 @@ const ProjectWeb = [
     ),
     link: "https://rendy278.github.io/WebPencarianFilm/callback.html",
     repository: "https://github.com/rendy278/WebPencarianFilm.git",
+  },
+  {
+    title: "Wedding Web",
+    name: "Prewedding web",
+    image: WeddingWeb,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600">
+        <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <SiJquery />
+      </p>
+    ),
+    link: "https://wedding-web-mu.vercel.app/",
+    repository: "https://github.com/rendy278/wedding-web.git",
   },
   {
     title: "Portofolio",
