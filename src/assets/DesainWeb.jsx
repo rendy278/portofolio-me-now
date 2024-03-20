@@ -16,7 +16,7 @@ import Tmc6 from "../Desain/tmc6.jpg";
 import Tmc7 from "../Desain/tmc7.jpg";
 import Tmc8 from "../Desain/tmc8.jpg";
 import Tmc9 from "../Desain/tmc9.jpg";
-
+import Fruitjuice from "../Desain/fruitjuice.png";
 import { SiCanva, SiAdobephotoshop } from "react-icons/si";
 const DesainWeb = [
   {
@@ -158,6 +158,14 @@ const DesainWeb = [
   },
   {
     Image: FreyaBanner,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600 dark:text-slate-100">
+        <SiCanva />
+      </p>
+    ),
+  },
+  {
+    Image: Fruitjuice,
     build: (
       <p className="flex gap-2 text-lg text-gray-600 dark:text-slate-100">
         <SiCanva />
