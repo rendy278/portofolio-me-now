@@ -22,6 +22,8 @@ import CoffeShop from "../project images/coffeshop.png";
 import WeddingWeb from "../project images/wedding.png";
 import VueMovie from "../project images/vuexfilm.png";
 import Blogs from "../project images/Blogs.png";
+import Anime from "../project images/animeweb.png";
+import Investman from "../project images/investman.png";
 import {
   FaReact,
   FaHtml5,
@@ -45,6 +47,32 @@ const ProjectWeb = [
     ),
     link: "https://blogs-web-indol.vercel.app/",
     repository: "https://github.com/rendy278/blogs-web.git",
+  },
+  {
+    title: "AnimeList",
+    name: "RenAnimeList",
+    image: Anime,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600">
+        <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <SiTailwindcss />
+        <FaReact /> <SiNextdotjs />
+      </p>
+    ),
+    link: "https://anime-website-tan.vercel.app/",
+    repository: "https://github.com/rendy278/Anime-website.git",
+  },
+  {
+    title: "Invest",
+    name: "Investman",
+    image: Investman,
+    build: (
+      <p className="flex gap-2 text-lg text-gray-600">
+        <FaHtml5 /> <FaCss3 /> <IoLogoJavascript /> <SiTailwindcss />
+        <FaReact /> <SiNextdotjs />
+      </p>
+    ),
+    link: "https://investman.vercel.app/",
+    repository: "https://github.com/rendy278/INVESTMAN.git",
   },
   {
     title: "Portofolio",
